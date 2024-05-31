@@ -1,0 +1,105 @@
+body {
+    
+    background-color: #f0f7f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('/static-job-listings-master/images/bg-header-desktop.svg');
+}
+
+.class1 {
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px auto;
+    display: flex;
+}
+
+.class-a{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-left: 5px solid #5a77ff;
+}
+
+.days{
+    display: flex;
+    /* flex-direction: ; */
+}
+
+.class-a h5 {
+    margin: 0;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+}
+
+ .class-a h5 .blue {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+.class-a h5 .blue {
+    background-color: #5a77ff;
+    color: #fff;
+}
+
+.class-a h5 .black {
+    background-color: #000;
+    color: #fff;
+}
+
+.class-a p {
+    margin: 10px 0;
+    font-size: 1em;
+}
+
+ .days {
+    display: flex;
+    gap: 10px;
+    font-size: 0.9em;
+    color: #888;
+}
+
+.button {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+    float: right;
+}
+
+.button button {
+    background-color: #eef6f8;
+    color: #5a77ff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+    transition: background-color 0.3s;
+}
+
+.button button:hover {
+    background-color: #5a77ff;
+    color: #fff;} 
+    .class2{
+        display: flex;
+        flex-direction: column;
+    }
+    .h5{
+        display: flex;
+        flex-direction: column;
+    }
+ 
